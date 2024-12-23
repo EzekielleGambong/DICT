@@ -14,7 +14,7 @@ export default function NavbarPlan() {
             {/* ICON */}
             <div className="flex flex-shrink-0 items-center">
               <a href="/page/home" className="font-extrabold ~text-xl/4xl text-sky-500">
-                TouristCation
+                KalakbayPH
               </a>
             </div>
 

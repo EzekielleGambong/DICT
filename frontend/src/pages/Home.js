@@ -28,14 +28,14 @@ export default function Home() {
     <>
       <section id="hero" className="~h-[40rem]/[50rem] ~pt-24/28 ~pb-4/8 justify-center items-center">
         <div className="relative h-full">
-          <LazyLoadImage src={landingimg} width="1700" alt="sample" className="h-full rounded-xl object-cover object-center brightness-50" />
+          <LazyLoadImage src="https://picsum.photos/2000/720" width="1700" alt="sample" className="h-full rounded-xl object-cover object-center brightness-50" />
 
           <div className="absolute inset-0 flex flex-col items-center justify-center px-8 sm:px-16">
             <p className="font-bold text-4xl md:text-6xl lg:text-7xl text-center text-white tracking-tight leading-tight">
-                <span className="text-blue-500 px-2 py-1">T</span>
-                <span className="text-white">ourist</span>
-                <span className="text-blue-500 px-2 py-1">C</span>
-                <span className="text-white">ation</span>
+                <span className="text-blue-500 px-2 py-1">K</span>
+                <span className="text-white">alakbay</span>
+                <span className="text-blue-500 px-2 py-1">P</span>
+                <span className="text-white">H</span>
             </p>
             <p className="font-normal text-sm md:text-lg text-center text-white mt-4">
               {profile ? `Welcome, ${profile.name}` : "Loading..."}
@@ -57,10 +57,9 @@ export default function Home() {
           <p className="font-bold ~text-2xl/4xl text-sky-500">About</p>
 
           <p className="font-normal ~text-lg/2xl text-gray-400">
-          TouristCation is a web-based application developed by Triumvirate, a group of students from the University of Makati, aiming to promote Philippine tourism. The primary focus of the application is to highlight the beauty of Region 1, comprising the four provinces of La Union, Ilocos Norte, Ilocos Sur, and Pangasinan. TouristCation seeks to benefit both travel enthusiasts and local establishments. For travelers, TouristCation serves as a recommender system that generates personalized travel itineraries, including suggestions for accommodations and tourist attractions based on their preferences. For establishments, it offers a platform to gain visibility and attract visitors, promoting their services both locally and internationally.
-          </p>
+          KalakbayPH is your ultimate travel companion in discovering the beauty of the Philippines—from its stunning beaches to its vibrant cities, hidden gems to the most iconic landmarks. Our mission is to provide both local and international tourists with a seamless, enriching, and unforgettable travel experience. </p>
         </div>
-        <LazyLoadImage src={aboutimg} alt="sample" className="md:~max-w-80/[50rem] rounded-xl object-cover object-center" />
+        <LazyLoadImage src="https://picsum.photos/2000/720" alt="sample" className="md:~max-w-80/[50rem] rounded-xl object-cover object-center" />
       </section>
 
       <section id="accomodations" className="~py-4/8 flex flex-col gap-6">

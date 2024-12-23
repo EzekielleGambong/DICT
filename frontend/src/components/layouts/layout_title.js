@@ -11,12 +11,13 @@ export default function LayoutTitle() {
   const [page, setPage] = useState();
   const [pics, setPics] = useState();
   const location = useLocation();
+  const temp = "https://picsum.photos/2000/720"; 
   useEffect(() => {
     switch (location.pathname) {
       case "/accommodations":
       case "/accommodations/":
         setPage("Accommodations");
-        setPics(firstimg);
+        setPics(temp);
         break;
       case "/accommodations/tourist-spots":
       case "/accommodations/tourist-spots/":

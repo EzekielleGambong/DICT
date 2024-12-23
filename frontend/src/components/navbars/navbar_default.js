@@ -72,7 +72,7 @@ export default function NavbarDefault() {
             {/* ICON */}
             <div className="flex flex-shrink-0 items-center">
               <a href="/page/home" className="font-extrabold ~text-xl/4xl text-sky-500" aria-current={page === "Home" ? "page" : ""}>
-                TouristCation
+                KalakbayPH
               </a>
             </div>
 

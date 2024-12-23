@@ -47,7 +47,7 @@ export default function FooterDefault() {
 
       <footer className="bg-sky-500 mt-8">
         <p className="text-white text-center ~text-sm/lg p-6">
-          © 2024 TouristCation All Rights Reserved |{" "}
+          © 2024 KalakbayPH All Rights Reserved |{" "}
           <a href="/terms_and_conditions" className="inline-block">
             Terms and Conditions
           </a>{" "}
