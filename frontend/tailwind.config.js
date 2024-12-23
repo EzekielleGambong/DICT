@@ -1,5 +1,6 @@
 import fluid, { extract, screens, fontSize } from "fluid-tailwind";
-import forms from "@tailwindcss/forms";
+import forms from "@tailwindcss/forms"; // Import the forms plugin
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: {
@@ -11,5 +12,5 @@ export default {
     screens,
     fontSize,
   },
-  plugins: [fluid, require("@tailwindcss/forms")],
+  plugins: [fluid, forms], // Use the imported plugin here
 };
